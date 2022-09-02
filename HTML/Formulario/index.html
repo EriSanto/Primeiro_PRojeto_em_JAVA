@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <!--Estrutura do elemento Form-->
+
+    <form metodh="post" action="eriky.costa.santos@gmail.com">
+
+        <input requirde />
+        <input type="submit" value="Enviar" />
+
+
+        <!--Valor Checkbox do atributo Type-->
+
+        <p> Escolha o Estado que você quer morar</p>
+
+        <label for="tor">Toronto</label>
+        <input id="tor" type="checkbox"/>
+
+        <label for="tex">Texas</label>
+        <input id="tex" type="checkbox"/>
+
+        <!-- Valor Radio Para O Atributo Type-->
+
+        <p>Selecione a vacina</p>
+
+        <label for="meg">Megatron</label>
+        <input type="Radio" id="meg" name="tipo">
+
+        <label for="bom">Bombombi</label>
+        <input type="Radio" id="bom" name="tipo">
+
+        <label for="iro">Bombeiro</label>
+        <input type="Radio" id="iro" name="tipo">
+
+        <!--Elemento selec, datalist e option-->
+
+        <p> Escolha seu pão</p>
+
+        <label for="pao">Escolha o seu pão</label>
+        <select name="pao" id="pao">
+            <option value="for">Forma</option>
+            <option value="bro">Bronha</option>
+            <option value="fra">Frances</option>
+            <option value="bag">Baguete</option>
+        </select> <br> <br>
+
+        <label for="times">Times</label>
+        <input autocomplete="on"  list="time" name="times" id="times">
+        <datalist id="time">
+            <option value="penapolence">Penapolence</option>
+            <option value="portuguesa">Portuguesa</option>
+            <option value="palmeras">Palmeiras</option>
+            <option value="chapeco">Chapeco</option>
+            <option value="piaui">Piaui</option>
+        </datalist>
+
+        <p>Sugestões, elogios e críticas:</p> 
+         <textarea name="message" rows="10" cols="50" placeholder="Deixe aqui
+        a sua mensagem!" required> </textarea>
+
+        <input type="range" id="valor_01" name="valor_01" />
+
+    </form>
+
+</body>
+
+</html>
