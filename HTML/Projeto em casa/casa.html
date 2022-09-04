@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sweet and Love</title>
+</head>
+
+<body>
+
+    <!--Cabeça-->
+    <header>
+        <h1>Sweet and Love</h1>
+
+        <p>Seja Bem-vindo!</p>
+    </header>
+
+
+    <!--Produtos e Valores-->
+
+    <main>
+        <h3>Veja nossos produtos!</h3>
+        <p>Nós temos muitas varidade de doces e salgados em nosso cardápio,<br>
+            Cada produto é 100% natural e feito com muito amor.
+            Aproveite!
+        </p>
+
+
+        <table>
+
+            <thead>
+                <th cowspan="10">Valor</th>
+                <th>Delicias</th>
+            </thead>
+
+
+            <tbody>
+
+                <tr>
+                    <th rowspan="1">
+                        <h3>1- Coxinha</h3>
+                        <p>frango com catupiry</p>
+                        + R$2,00
+                    </th>
+                    <td><img src="coxinha.jpg" alt="COxinha" / width="200" height="150"></td>
+
+                </tr>
+
+
+                <tr>
+                    <th rowspan="1">
+                        <h3>2- Brigadeiro</h3>
+                        <p>Chocolate com granulado</p>
+                        + R$2,00
+                    </th>
+                    <td><img src="brigadeiro.jpg" alt="Brigadeiro" / width="200" height="150"></td>
+                </tr>
+
+                <tr>
+                    <th rowspan="1">
+                        <h3>3- Pastel</h3>
+                        <p>Carne, queijo muçarela e <br> queijo parmesão</p>
+                        + R$7,00
+                    </th>
+                    <td> <img src="pastel.jpg" alt="pastel" / width="200" height="150"></td>
+
+                </tr>
+
+                <tr>
+                    <th rowspan="1">
+                        <h3>4- Doce de Caju</h3>
+                        + R$10,00
+                    </th>
+                    <td><img src="doce de caju.jpg" alt="doce de caju" / width="200" height="150"></td>
+
+                </tr>
+
+                <tr>
+                    <th rowspan="1">
+                        <h3>5- Torta de Frango</h3>
+                        <p>Frango, catupiry, azeitona, <br> milho e ervilha</p>+ R$20,00
+                    </th>
+                    <td><img src="torta de frango.jpg" alt="torta de frango" / width="200" height="150"></td>
+                </tr>
+
+                <tr>
+                    <th rowspan="1">
+                        <h3>6- Doce de Goiaba</h3>+ R$15,00
+                    </th>
+                    <td> <img src="doce de goiaba.jpg" alt="doce de goiaba" / width="200" height="150"></td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </main>
+
+
+    <article>
+
+        <h2>Fomulário</h2>
+        <caption>Por favor, preencha o formulário abaixo.</caption>
+        <br><br>
+
+        <!--Formulário-->
+
+        <form>
+            <labe for="name">Nome:</labe><br>
+            <input autocomplete="off" type="text" size=30 name="tNome" id="cNome" required="required"
+                placeholder="Nome..." /><br>
+
+            <label for="idade">Idade:</label><br>
+            <input type="text" size=30 name="tIdade" id="cIdade" required="required" placeholder="Idade..." /><br>
+
+            <label for="email">E-mail:</label><br>
+            <input type="text" size="30" name="tEmail" id="cEmail" required="required" placeholder="Email..." /><br><br>
+
+            <h3>Lojas</h3>
+            <p>Em qual local você foi a tendido ?</p>
+
+            <label for="local">Selecione o local de atendimento:</label>
+            <select id="local" name="local">
+                <option value="jaçanã">Jaçanã</option>
+                <option value="tucuruvi">Tucuruvi</opiton>
+                <option value="liberdade">Liberdade </opition>
+                <option value="santana">Santana</opition>
+            </select>
+
+            <h3>Produtos</h3>
+            <p>Quais produtos você gostou de comprar ?</p>
+
+            <label for="produto">Coxinha</label>
+            <input type="checkbox">
+
+            <label for="produto">Brigadeiro</label>
+            <input type="checkbox">
+
+            <label for="produto">Doce de Caju</label>
+            <input type="checkbox">
+
+            <label for="produto">Doce de Goiaba</label>
+            <input type="checkbox">
+
+            <label for="produto">Torta de Frango</label>
+            <input type="checkbox">
+
+            <label for="produto">Pastel</label>
+            <input type="checkbox">
+
+            <h3>Atendimento/Ambiente</h3>
+            <p>Você foi bem atendido ? O ambiente estava limpo ?</p>
+
+            <label for="Avaliação">Sim:</label>
+            <input type="radio" name="tipo" id="s" value="Sim"><br>
+
+            <label for="Avaliação">Não:</label>
+            <input type="radio" name="tipo" id="n" value="Não"><br>
+
+            <p>Sugestões, elogios e critica:</p>
+            <textarea name="message" rows="7" cols="40" placeholder="Deixe aqui sua mensagem"
+                requared></textarea><br><br>
+
+            <input type="submit" value="Enviar" />
+
+        </form>
+    </article>
+    <br>
+
+    <footer>
+        <p>Sociais</p>
+
+        <a href="https://www.instagram.com/" target="_blank">
+            <img src="instagran2.jpg" alt="O poder da Empatia" width="2%" height="2%" />
+
+        </a>
+
+        <a href="https://www.facebook.com/" target="_blank">
+            <img src="facebook.jpg" alt="O poder da Empatia" width="2%" height="2%" />
+
+        </a>
+
+        <a href="https://twitter.com/" target="_blank">
+            <img src="twitter.jpg" alt="O poder da Empatia" width="2%" height="2%" />
+
+        </a>
+       
+    </footer>
+</body>
+
+</html>
