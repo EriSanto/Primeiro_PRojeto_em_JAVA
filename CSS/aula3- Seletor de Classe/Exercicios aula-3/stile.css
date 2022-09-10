@@ -1,0 +1,32 @@
+h1 {
+    color: blue;
+    border: 2px solid Grey;
+    text-align: center;
+}
+
+section .pipoca{
+
+    color: grey;
+    background-color: beige;
+    border:2px solid                                   
+     greenyellow;
+
+
+}
+
+#primeiro_nome{
+    background-color: crimson;
+    text-align: center;
+}
+
+#segundoNome{
+    background-color: cadetblue;
+    text-align: center;
+
+}
+
+article h4{
+    text-align: center;
+    border: 2px solid indigo;
+    font-size: 26px;
+}
