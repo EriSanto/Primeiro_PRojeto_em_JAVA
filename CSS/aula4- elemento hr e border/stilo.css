@@ -1,0 +1,22 @@
+body{
+    background-color: bisque;
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+p{
+    background-color: #aeaed4;
+    text-align: center;
+    font-size: 0.9em;
+    text-indent: 3em;
+    
+}
+
+h1{
+    background-color: #aeaed4;
+    color: #e6e6fa;
+    border-top:  2px solid #e6e6fa;
+}
