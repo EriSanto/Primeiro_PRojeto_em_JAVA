@@ -21,6 +21,8 @@ h1 {
     font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     margin: 30px;
+    text-shadow: 3px 3px 5px yellow;
+
 
 }
 
@@ -44,6 +46,8 @@ a {
 .box-1 {
     background-image: url('pistols.jpg');
     color: rgb(193, 201, 90);
+    background-position: top;
+    font-weight: bold;
 
 
     border-right: 5px rgb(227, 243, 4) solid;
@@ -56,13 +60,13 @@ a {
     padding: 20px;
     margin: 10px;
 
-
-
 }
 
 .box-2 {
     background-image: url('dk.jpg');
     color: rgb(224, 12, 12);
+    background-position: top;
+    font-weight: bold;
 
     border-right: 5px red solid;
     border-left: 5px red solid;
@@ -78,13 +82,15 @@ a {
 
 .box-3 {
     background-image: url('ramones.jpg');
+    background-position: top;
+    font-weight: bold;
 
-    color: rgb(45, 0, 243);
+    color: rgb(59, 52, 255);
     background-position: center;
-    border-right: 5px rgb(87, 98, 192) solid;
-    border-left: 5px rgb(87, 98, 192) solid;
-    border-top: 5px rgb(87, 98, 192) solid;
-    border-bottom: 5px rgb(87, 98, 192) solid;
+    border-right: 5px rgb(59, 52, 255)solid;
+    border-left: 5px rgb(59, 52, 255) solid;
+    border-top: 5px rgb(59, 52, 255)solid;
+    border-bottom: 5px rgb(59, 52, 255)solid;
     border-width: 6px;
     border-bottom-width: 10px;
     border-top-style: dotted;
@@ -93,13 +99,50 @@ a {
 
 }
 
+.box-4 {
+    background-image: url('misfits.jpg');
+    background-position: top;
+    font-weight: bold;
+    background-size: cover;
+
+    color: rgb(14, 201, 23);
+    background-position: center;
+    border-right: 5px rgb(8, 146, 15) solid;
+    border-left: 5px rgb(8, 146, 15)solid;
+    border-top: 5px rgb(8, 146, 15)solid;
+    border-bottom: 5px rgb(8, 146, 15) solid;
+    border-width: 6px;
+    border-bottom-width: 10px;
+    border-top-style: dotted;
+    padding: 20px;
+    margin: 10px;
+}
+
+.box-5 {
+    background-image: url(death.jpg);
+    background-position: top;
+    font-weight: bold;
+
+    color: rgb(255, 81, 0);
+    background-position: center;
+    border-right: 5px orangered solid;
+    border-left: 5px orangered solid;
+    border-top: 5px orangered solid;
+    border-bottom: 5px orangered solid;
+    border-width: 6px;
+    border-bottom-width: 10px;
+    border-top-style: dotted;
+    padding: 20px;
+    margin: 10px;
+}
+
 .vermelho {
     background-color: red;
     color: white;
 }
 
 .azul {
-    background-color: rgb(87, 98, 192);
+    background-color: rgb(59, 52, 255);
     color: white;
 }
 
@@ -108,14 +151,12 @@ a {
     color: white;
 }
 
-.pistols {
-    color: rgb(227, 243, 4);
+.verde {
+    background-color: rgb(8, 146, 15);
+    color:  white;
 }
 
-.dk {
-    color: red;
-}
-
-.ramones {
-    color: rgb(0, 25, 248);
+.laranja {
+    background-color: orangered;
+    color: white;
 }
