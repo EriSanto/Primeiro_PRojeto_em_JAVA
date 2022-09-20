@@ -1,0 +1,49 @@
+p:first-child{
+    color: blue;
+}
+
+.myList li:first-child{
+    background-color: aqua;
+}
+
+.myList li:nth-child(3){
+    background-color: brown;
+}
+
+.myList li:last-child{
+    background-color: chocolate;
+}
+
+a:hover{
+    background-color: darkblue;
+}
+
+#paragrafo-1::before{
+    content: "Leia isso -";
+}
+
+#paragrafo-2::after{
+    content: "Laia mais";
+}
+ /*firts-latter*/
+
+ p::first-letter{
+    font-size: 200%;
+    color: #8A2BE2;
+
+ }
+
+ #firts::first-line{
+    background-color: darkgreen;
+
+ }
+
+ p::selection{
+    color: white;
+    background-color: blue;
+ }
+
+ ::selection{
+    color: gold;
+    background-color: red;
+ }
