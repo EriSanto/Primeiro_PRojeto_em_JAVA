@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
+<<<<<<< HEAD
 p:hover{
     background-color: aqua;
 
@@ -22,3 +23,128 @@ p:hover{
  
 }
 
+=======
+.container {
+
+    width: 70%;
+    margin: 10px 30px;
+    margin-left: 280px;
+    padding: 2em;
+
+}
+
+body {
+    background-color: #533618;
+}
+h1{
+    color: #c1c1c1;
+    font-family: fantasy;
+    font-size: 50pt;
+    text-shadow: 4px 4px 6px black;
+    text-align: center;
+}
+.box-1 {
+    background-color: #c1c1c1;
+    border-right: 5px #C1C2BC solid;
+    border-top: 5px #C1C2BC solid;
+    border-bottom: 5px #C1C2BC solid;
+    border-left: 5px #C1C2BC solid;
+    margin-bottom: 400px;
+    padding-bottom: 35px;
+    margin: 20px;
+    font-family: fantasy;
+    line-height: 31px;
+
+
+}
+
+.first {
+    float: left;
+}
+
+.container .box-1 .first {
+    margin: 15px;
+
+
+}
+
+.btn {
+    background-color: orange;
+    color: black;
+    padding: 5px 10px;
+    border-top: 2px black solid;
+    border-right: 2px black solid;
+    border-bottom: 2px black solid;
+    border-left: 2px black solid;
+    text-decoration: none;
+    border-radius: 10px;
+
+}
+
+.btn:hover {
+    background-color: green;
+}
+
+
+
+.p {
+    text-align: center;
+}
+
+
+.container-2 {
+    width: 70%;
+    margin: 10px 30px;
+    margin-left: 280px;
+    padding: 2em;
+}
+
+.box-2 {
+    background-color: #c1c1c1;
+    border-right: 5px #C1C2BC solid;
+    border-top: 5px #C1C2BC solid;
+    border-bottom: 5px #C1C2BC solid;
+    border-left: 5px #C1C2BC solid;
+    margin-bottom: 400px;
+    padding-bottom: 35px;
+    margin: 20px;
+    font-family: fantasy;
+    line-height: 31px;
+}
+
+
+.container .box-1 .segunda {
+    margin: 15px;
+}
+
+.container-3{
+    width: 70%;
+    margin: 10px 30px;
+    margin-left: 400px;
+    padding: 2em;
+}
+
+.box-3{
+    background-color: #c1c1c1;
+    border-right: 5px #C1C2BC solid;
+    border-top: 5px #C1C2BC solid;
+    border-bottom: 5px #C1C2BC solid;
+    border-left: 5px #C1C2BC solid;
+    margin-bottom: 400px;
+    padding: 10%;
+    margin-top: 100px;
+    font-family: fantasy;
+    line-height: 31px;
+
+  
+   
+
+}
+
+.segundo{
+    float: left;
+    float: right;
+    float: right;
+    
+}
+>>>>>>> 47ce0d4bad898cb340ffdfc395a63890eb352b29
