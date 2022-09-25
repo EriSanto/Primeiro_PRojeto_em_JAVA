@@ -79,7 +79,7 @@ a {
 .box-2 {
 
     background-image: url('flag.jpg');
-    background-position: center;
+    background-position:center;
     color: aliceblue;
     border-right:
         5px red solid;

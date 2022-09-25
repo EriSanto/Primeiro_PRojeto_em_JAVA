@@ -3,42 +3,46 @@
     padding: 0;
 }
 
-p:hover{
-    background-color: aqua;
 
-}
 
-.container{
+
+.container {
     width: 70%;
     height: 70%;
     padding: 2em;
-    margin-left: 200px;
-    
-}
-
-.box-1{
-    background-color: brown;
-    
- 
-}
-.container {
-
-    width: 70%;
-    margin: 10px 30px;
-    margin-left: 280px;
-    padding: 2em;
+    margin-left: 250px;
 
 }
+
+
+
 
 body {
-    background-color: #533618;
+    background-image: url('parede.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
 }
-h1{
-    color: #c1c1c1;
-    font-family: fantasy;
-    font-size: 50pt;
-    text-shadow: 4px 4px 6px black;
+   
+header {
+
+    margin-left: 40%;
+    font-size: 200pt;
+}
+
+h2{
+    color: white;
+}
+.box{
     text-align: center;
+    background-color: #c1c1c1;
+    border-right: 5px #C1C2BC solid;
+    border-top: 5px #C1C2BC solid;
+    border-bottom: 5px #C1C2BC solid;
+    border-left: 5px #C1C2BC solid;
+    font-family: initial;
+    
 }
 .box-1 {
     background-color: #c1c1c1;
@@ -55,7 +59,7 @@ h1{
 
 }
 
-.first {
+#first {
     float: left;
 }
 
@@ -86,15 +90,14 @@ h1{
 
 .p {
     text-align: center;
-}
 
 
-.container-2 {
-    width: 70%;
-    margin: 10px 30px;
-    margin-left: 280px;
-    padding: 2em;
 }
+
+img{
+    width: 300px;
+}
+
 
 .box-2 {
     background-color: #c1c1c1;
@@ -103,45 +106,53 @@ h1{
     border-bottom: 5px #C1C2BC solid;
     border-left: 5px #C1C2BC solid;
     margin-bottom: 400px;
-    padding-bottom: 35px;
+    padding-bottom: 1%;
     margin: 20px;
     font-family: fantasy;
+    line-height: 65px;
+    font-size: 17pt;
+
+}
+
+iframe {
+    float: left;
+}
+
+
+.box-3 {
+    background-color: black;
+    background-position: center;
+    color:white;
+
+   margin: 13px;
+   padding: 10px;
+    margin: 20px;
+    font-family: sans-serif;
     line-height: 31px;
+    float: left;
+    text-align: center;
+    background-color: black;
+  
+}
+
+section{
+    background-color: #314a20;
+    border: 1px yellow solid;
+      
 }
 
 
-.container .box-1 .segunda {
-    margin: 15px;
+.segundo:hover{
+    background-color: blue;
 }
 
-.container-3{
-    width: 70%;
-    margin: 10px 30px;
-    margin-left: 400px;
-    padding: 2em;
-}
-
-.box-3{
+.final{
     background-color: #c1c1c1;
     border-right: 5px #C1C2BC solid;
     border-top: 5px #C1C2BC solid;
     border-bottom: 5px #C1C2BC solid;
     border-left: 5px #C1C2BC solid;
-    margin-bottom: 400px;
-    padding: 10%;
-    margin-top: 100px;
-    font-family: fantasy;
-    line-height: 31px;
-
-  
-   
-
-}
-
-.segundo{
-    float: left;
-    float: right;
-    float: right;
-    
+    text-align: center;
+    margin-top: 60%;
 }
 

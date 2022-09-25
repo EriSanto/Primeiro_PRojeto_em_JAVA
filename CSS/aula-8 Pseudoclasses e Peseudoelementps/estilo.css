@@ -47,3 +47,7 @@ a:hover{
     color: gold;
     background-color: red;
  }
+
+ P::first-line{
+    color: aqua;
+ }
