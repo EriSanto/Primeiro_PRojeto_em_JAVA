@@ -1,0 +1,142 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    font-family: 'oswald', sans-serif;
+    background-color: rgb(97, 113, 146);
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 35% 35%;
+    grid-row: auto;
+    grid-gap: 50px;
+    margin-left: 22%;
+    grid-template-areas:
+        'box1 box2'
+        'box3 box4'
+        'box5 box6'
+        'box7 box8'
+    ;
+
+}
+
+.header {
+
+
+   
+
+    background-color: rgba(156, 116, 28, 0.959);
+    padding: 15px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;  
+    margin: 3rem;
+    
+
+
+}
+
+
+
+
+
+.reliquias {
+    width: 5rem;
+
+
+
+
+
+
+}
+
+
+
+h2 {
+    margin-bottom: 2%;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+
+.box1 {
+    grid-template-areas: box1;
+    background-color: rgb(253, 218, 121);
+
+
+}
+
+.box2 {
+    grid-template-areas: box2;
+    background-color: rgb(253, 218, 121);
+
+
+}
+
+.box3 {
+    grid-template-areas: box3;
+    background-color: rgb(253, 218, 121);
+
+
+}
+
+.box4 {
+    grid-template-areas: box4;
+    background-color: rgb(253, 218, 121);
+
+
+}
+
+.box5 {
+    grid-template-areas: box5;
+    background-color: rgb(253, 218, 121);
+
+
+}
+
+.box6 {
+    grid-template-areas: box6;
+    background-color: rgb(253, 218, 121);
+
+
+}
+
+.box7 {
+    grid-template-areas: box7;
+    background-color: rgb(253, 218, 121);
+
+
+}
+
+.box8 {
+    grid-template-areas: box8;
+    background-color: rgb(253, 218, 121);
+
+
+}
+
+p {
+    margin: 5px;
+}
+
+.btn {
+    padding: 3px;
+    border: 1px black solid;
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+
+
+
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
