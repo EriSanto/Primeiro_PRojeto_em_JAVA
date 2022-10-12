@@ -1,43 +1,20 @@
+//Exercício 1
+const preço1 = 2.99;
+const preço2 = 4.5;
+const preço3 = 6.9;
 
-//Exercício1
-var preço1 = 2.99;
-var preço2 = 4.41;
-var preço3 = 5.99;
+console.log(preço2);
+console.log(preço3);
+if (preço1 < preço2) console.log(`Menor preço ${preço1}`);
 
-console.log
-    (`${preço3} ${preço2} Menor preço: ${preço1}`);
+//Exercício 2
+var a = 2;
+var b = 1;
+var c = 3;
+if (b < a < c) console.log('1,2,3');
 
-//Exercício2
-
-
-var numero1 = 10
-var numero2 = 20
-var numero3 = 30
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*var primeiro = 10;
-var segundo = 20;
-var terceiro = 30;
- 
-console.log(`${primeiro} ${segundo} ${terceiro}`)*/
-
-//Exercício3
-const multiplo = 4;
-var resultado = 4 * 400
-console.log("Ano bissexto " + resultado)
-
-
-
-
-
+//Exercício 3
+const numero = 4;
+if (numero * 400 === 1600 && !isNaN(numero)) {
+    console.log(`${numero} é correspondente a 1600 que é ano bissexto`);
+}
