@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        /*Criação de classe carro*/
+        class Carro {
+            constructor(nome, ano, porta, janela) {
+                this.nome = nome;
+                this.ano = ano;
+                this.porta = porta;
+                this.janela = janela;
+
+            }
+            /*Metodo retorna a idade do meu carro*/
+            idadeCarro(anoAtual) {
+                return anoAtual - this.ano;
+            }
+
+        }
+
+        /*Criação de objeto que herda a
+        caracteristicas de classe carro*/
+        let carro1 = new Carro("Celta", 2002, 2, 4)
+        let carro2 = new Carro('Veloster', 2015, 3, 4)
+        //Apresentar os Objetos no console.log
+        console.log(carro1)
+        console.log(carro1.nome)
+
+             //Pegar o ano atual
+             let dataHoje = new Date();
+        let ano = dataHoje.getFullYear();
+
+        /*Retornar a idade do objeto carro1*/
+        console.log(carro1.idadeCarro(anoAtual))
+    </script>
+</body>
+
+</html>
