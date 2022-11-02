@@ -1,34 +1,70 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body id="body">
-    <h2>Listas de compras</h2>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body id="body">
+        <h2>Listas de compras</h2>
 
-    <ul id="items" class="list">
-        <li class="item" id="item0">Camisa</li>
-        <li class="item" id="item1">Tênis</li>
-        <li class="item" id="item2">Blusa</li>
-        <li class="item" id="item3">Relógio</li>
-        <li class="item" id="item4">Corrente</li>
-    </ul>
-    <button onclick="mudarFundo()">Clique</button>
-    <button onclick="calculo()">Clique</button>
-    <button onclick="calculo()">Clique</button>
-    <button onclick="calculo()">Clique</button>
-    <button onclick="calculo()">Clique</button>
-    <button onclick="calculo()">Clique</button>
+        <ul id="items" class="list">
+            <li class="item" id="item0">Camisa</li>
+            <li class="item" id="item1">Tênis</li>
+            <li class="item" id="item2">Blusa</li>
+            <li class="item" id="item3">Relógio</li>
+            <li class="item" id="item4" name="linha">Corrente</li>
+            <li class="item" id="item5">Colar</li>
+        </ul>
+        <button onclick="mudarFundo()">Clique</button>
+        <button onclick="bold()">Clique</button>
+        <button onclick="listras()">Clique</button>
+        <button onclick="linha()">Clique</button>
+        <button onclick="apagar()">Clique</button>
+        <button onclick="recuperar()">Clique</button>
 
-    <script>
-        let mudarFundo = document.getElementById
-        let body = document.getElementById('body')
-        body.style.backgroundColor = '#990' 
-            function mudarFundo(body)
+        <script>
+            function mudarFundo() {
+                const item0 = document.getElementById('item0');
+                item0.style.backgroundColor = 'red';
+                console.log(item0);
+            }
 
-    </script>
-</body>
+            function bold() {
+                let item1 = document.getElementsByClassName('item');
+                item1[1].style.fontWeight = 'bold';
+                console.log(items[1]);
+            }
+
+            function listras() {
+                let li = document.getElementsByTagName('li');
+                console.log(li);
+                for (let i = 0; i < li.length; i++) {
+                    if (i % 2) li[i].style.backgroundColor = 'darkgray';
+                    else li[i].style.backgroundColor = 'fff';
+                }
+            }
+
+            function linha() {
+                let nome = document.getElementsByName('linha');
+                nome[0].style.borderBottom = 'solid 5px blue';
+                console.log(nome);
+            }
+
+            let item5 = document.getElementById('item5');
+
+            function apagar() {
+                item5.remove();
+            }
+
+            let lista = document.getElementById('items');
+            let item4 = document.getElementById('item4');
+
+            function recuperar() {
+                lista.insertBefore(item5, item4.nextSibling);
+                item5.textContent = 'Item recuperado';
+            }
+        </script>
+    </body>
 </html>
